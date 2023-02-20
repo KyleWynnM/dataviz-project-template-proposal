@@ -8,7 +8,7 @@ The data I propose to visualize for my project is the revenue, ratings, and more
 
 I’ve created a proof of concept visualization of this data. It's an interactive scatter plot and it shows the IMDB rating versus the Revenue accumulated by the 
 
-```![Screenshot 2023-02-20 at 3 52 50 PM](https://user-images.githubusercontent.com/74930526/220196828-f4ec6967-b955-44cb-99f0-6b7792936cf1.png)
+![Screenshot 2023-02-20 at 3 52 50 PM](https://user-images.githubusercontent.com/74930526/220196828-f4ec6967-b955-44cb-99f0-6b7792936cf1.png)
 (https://vizhub.com/KyleWynnM/c50f1f2a02654434a755eebc13077d1a?edit=files&file=scatterPlot.js)
 
 ## Questions & Tasks
