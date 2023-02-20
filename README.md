@@ -1,8 +1,8 @@
-# Data Visualization Project
+# Movie Stat Plot
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is the revenue, ratings, and more for the 1000 movies I pulled from the Internet Movie Database. 
 
 ## Prototypes
 
