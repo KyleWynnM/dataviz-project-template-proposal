@@ -68,7 +68,7 @@ Next, I added a network graph, a different direction from my initial scatter plo
 
 Finally, I added an actor seach function for the network, allowing you to narrow down the network to an actor of your choosing.
 ![Screenshot 2023-04-28 at 6 46 50 PM](https://user-images.githubusercontent.com/74930526/235265952-50500fb9-3efc-40af-9666-b2467c59d86d.png)
-
+(https://vizhub.com/KyleWynnM/ccaa78ffd6f84e29a5ae0ae5156be269?edit=files&file=index.js)
 
 ## Milestones
 (I'm keeping this from the original proposal, as I am satisfied with the number and scale of goals I fulfilled!)
