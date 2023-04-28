@@ -2,30 +2,20 @@
 
 ## Data
 
-The data I propose to visualize for my project is the revenue, ratings, and more for the 1000 movies I pulled from the Internet Movie Database. 
+For my class project, I put together multiple visualizations for the data of over 1000 movies I pulled from the Internet Movie Database. 
 
-## Prototypes
+This is a two pronged project both centralizing around the same CSV!
 
-I began by making a scatter plot with an added layer of interactivity where you can choose which genres are displayed.
-![Screenshot 2023-02-20 at 5 03 57 PM](https://user-images.githubusercontent.com/74930526/220204962-4e3258ac-35a5-4a8e-a834-f168ac2cb96e.png)
-(https://vizhub.com/KyleWynnM/5b359846e6d048ef813ad35647795614?edit=files&file=viz.js)
+The CSV is data from ~1000 movies off of IMDB
+The fields include actors, genres, runtime, revenue, release year, and more!
 
-Finally, (so far) I’ve created a proof of concept visualization of this data. It's an interactive scatter plot and it shows the IMDB rating versus the Revenue accumulated by the movie. I added axes, and axes titles.
-![Screenshot 2023-02-20 at 3 52 50 PM](https://user-images.githubusercontent.com/74930526/220196828-f4ec6967-b955-44cb-99f0-6b7792936cf1.png)
-(https://vizhub.com/KyleWynnM/c50f1f2a02654434a755eebc13077d1a?edit=files&file=scatterPlot.js)
+The first prong is a customized scatter plot.
+You decide what you want to see. You can choose the X-Axis and the Y-Axis!
+Then you can decide what genres you want plotted, or what actor you want plotted
+You can hover over each dot to see what movie it is!
 
-## Questions & Tasks
-
-The following tasks and questions will drive the visualization and interaction decisions for this project:
-
- * Which actors/directors perform the best critically?
- * Which actors/directors perform the best financially?
- * Which actor-director pairings are the most prominent?
- * Which actor-director pairings are the most successful?
- * Which genres perform the best critically?
- * Which genres perform the best financially?
- * Where are there clusters in the plots for every genre?
- * How does metacritic compare to IMDB for ratings?
+The second prong is an actor network.
+It is a graph of actors linked by shared movies, you can also choose an actor as an origin for the graph!
 
 ## Sketches
 
@@ -44,14 +34,44 @@ Along those lines, why would I limit the user to just sort by genres? I thought 
 From there, Prof. Curran, pointed out that with this network of actors and directors I could make a network graph! I thought maybe there's someway I could do that and mix it with the scatter plot, still working on that thought, not quite sure yet.
 <img width="700" alt="Screenshot 2023-02-20 at 4 37 32 PM" src="https://user-images.githubusercontent.com/74930526/220203472-87c75b76-fd30-4a06-9946-471d34761710.png">
 
+## Prototypes/Iterations
 
-## Open Questions
+I began by making a scatter plot with an added layer of interactivity where you can choose which genres are displayed.
+![Screenshot 2023-02-20 at 5 03 57 PM](https://user-images.githubusercontent.com/74930526/220204962-4e3258ac-35a5-4a8e-a834-f168ac2cb96e.png)
+(https://vizhub.com/KyleWynnM/5b359846e6d048ef813ad35647795614?edit=files&file=viz.js)
 
-My main concern is the hover feature, and the network concept.
-The hover feature (letting the user hover dots to see what movie is which dot) I feel is the most involved and I'm nervous there's too much going on for me to handle.
-The network issue is a matter of imagination. I want to figure out some way to mix it with the scatter plot, but I've struggled to figure it out.
+Then I created a proof of concept visualization of this data. It's an interactive scatter plot and it shows the IMDB rating versus the Revenue accumulated by the movie. I added axes, and axes titles.
+![Screenshot 2023-02-20 at 3 52 50 PM](https://user-images.githubusercontent.com/74930526/220196828-f4ec6967-b955-44cb-99f0-6b7792936cf1.png)
+(https://vizhub.com/KyleWynnM/c50f1f2a02654434a755eebc13077d1a?edit=files&file=scatterPlot.js)
+
+I then added the ability to set what axes were used on the scatterplot 
+![Screenshot 2023-04-28 at 6 37 28 PM](https://user-images.githubusercontent.com/74930526/235265046-6eeebb3e-d295-492a-9d91-f49ec97fa8eb.png)
+(https://vizhub.com/KyleWynnM/13adef6291504bc18eee665ba18cced6)
+
+Then came coloring the dots to differentiate the genres on the plot.
+![Screenshot 2023-04-28 at 6 38 56 PM](https://user-images.githubusercontent.com/74930526/235265175-0588031f-45c6-44e9-a529-40e427140ad8.png)
+(https://vizhub.com/KyleWynnM/e680e7dbc28c433db67da71df8485785)
+
+Next came the ability to filter the plot by the actors that appeared in the movies. Additionally, I added a hover feature so you can see what dot is which movie.
+![Screenshot 2023-04-28 at 6 39 55 PM](https://user-images.githubusercontent.com/74930526/235265266-26a8096a-b821-4542-9d1a-0a6bc059e7fc.png)
+(https://vizhub.com/KyleWynnM/bb3d1d3de2a34fa885e96f7578d95b01)
+
+I proceeded to clean up the code behind the scenes, and also clean up the look of the visualization to make it more aesthetically pleasing.
+![Screenshot 2023-04-28 at 6 41 32 PM](https://user-images.githubusercontent.com/74930526/235265420-11af3219-59df-429a-a199-1f6bd4e2e1d1.png)
+
+Along with that came a guide and "about" section for the site.
+![Screenshot 2023-04-28 at 6 42 19 PM](https://user-images.githubusercontent.com/74930526/235265489-099be22c-08e5-4bcb-90ab-0c810a558e9a.png)
+
+Next, I added a network graph, a different direction from my initial scatter plot. This allows you to see how actors link with each other based on the movies they are in.
+![Screenshot 2023-04-28 at 6 42 59 PM](https://user-images.githubusercontent.com/74930526/235265564-455da48c-b510-4cc0-86e3-74c93a26035c.png)
+(https://vizhub.com/KyleWynnM/662a58e6f0554b71bb8daa34b6b55b87)
+
+Finally, I added an actor seach function for the network, allowing you to narrow down the network to an actor of your choosing.
+![Screenshot 2023-04-28 at 6 46 50 PM](https://user-images.githubusercontent.com/74930526/235265952-50500fb9-3efc-40af-9666-b2467c59d86d.png)
+
 
 ## Milestones
+(I'm keeping this from the original proposal, as I am satisfied with the number and scale of goals I fulfilled!)
 (Each bullet point represents a week(ish), maybe less maybe more)
 * First, I'd like to make the scatter plot out of different symbols denoting different landmarks (e.g. a star for the highest rated movie in the plot)
 * I'd like to add the drop down menu axes to let the user choose what they see
