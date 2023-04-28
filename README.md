@@ -1,5 +1,7 @@
 # 🎥🍿 Movie Stat Plot 🎥🍿 
 
+Presentation Video: https://youtu.be/GmZtWC_qeCU
+
 ## Data
 
 For my class project, I put together multiple visualizations for the data of over 1000 movies I pulled from the Internet Movie Database. 
