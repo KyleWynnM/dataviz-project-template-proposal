@@ -75,7 +75,6 @@ Finally, I added an actor seach function for the network, allowing you to narrow
 (Each bullet point represents a week(ish), maybe less maybe more)
 * First, I'd like to make the scatter plot out of different symbols denoting different landmarks (e.g. a star for the highest rated movie in the plot)
 * I'd like to add the drop down menu axes to let the user choose what they see
-* I'd like to add the "and" and "or" radio buttons to allow you to choose whether you want the union or intersection of genres on the plot for example
 * I'd like to add the actor/director feature to let you plot movies specific to various actors or directors
 * I'd like to add a hover feature to let you see which dot represents which movie
 * I'd like to start connecting the movies by actor or director as a graph
